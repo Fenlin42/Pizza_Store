@@ -26,7 +26,7 @@ class Pizza:
 #Methoden
     #discount "Pizza 10"
     def price_with_code(self, code: str) -> float:
-        code_norm = str(code).strip().upper()
+        code_norm = str(code).strip()
         if code_norm == "PIZZA10":
             return round(self.price * 0.9, 2)
         return self.price
