@@ -8,12 +8,12 @@
 
 class Pizza:
     def __init__(self, name, toppings, price):
-        # Name: trimmen (Leerzeichen entfernen)
+        # Name: strip() (Leerzeichen entfernen)
         self.name = name.strip()
         if not self.name:
             raise ValueError("Name darf nicht leer sein")
 
-        # Toppings: Liste bereinigen (kleinbuchstaben, Leerstrings raus)
+        # Toppings: isistance: kontrolliert ob es eine liste ist & (kleinbuchstaben, Leerstrings raus)
         if not isinstance(toppings, list):
             raise ValueError("Toppings müssen eine Liste sein")
         self.toppings = [t.strip().lower() for t in toppings if t.strip()]
@@ -24,11 +24,10 @@ class Pizza:
             raise ValueError("Preis muss größer als 0 sein")
 
 
+#Methoden
 
-
-#alle_pizzen_liste
-#pizza_eingegeben_belaegen
-#pizza_eingegeben_name
+def price_with_discount(self):
+        if self.price <= 0:
 #preis_mit_rabatt
 #
 
