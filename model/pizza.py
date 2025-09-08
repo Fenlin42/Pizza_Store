@@ -25,13 +25,13 @@ class Pizza:
 
 #Methoden
     #discount "Pizza 10"
-    def price_with_code(self, code):
-        discount_code = code
-        if discount_code == "PIZZA10":
+    def price_with_code(self, code: str) -> float:
+        code_norm = str(code).strip().upper()
+        if code_norm == "PIZZA10":
             return round(self.price * 0.9, 2)
         return self.price
 
-#damit es wie ein code rauskommt und nicht als code
+    #damit es wie ein code rauskommt und nicht als code
     def __str__(self) -> str:
         toppings_str = ", ".join(self.toppings)
         return f"{self.name}: {toppings_str} – {self.price:.2f} CHF"
