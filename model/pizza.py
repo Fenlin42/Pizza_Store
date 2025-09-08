@@ -23,16 +23,15 @@ class Pizza:
         if self.price <= 0:
             raise ValueError("Preis muss größer als 0 sein")
 
-
 #Methoden
+    #discount "Pizza 10"
+    def price_with_code(self, code):
+        discount_code = code
+        if discount_code == "PIZZA10":
+            return round(self.price * 0.9, 2)
+        return self.price
 
-def price_with_code(self, code)
-    discount_code = code.strip().upper()
-    if discount_code == "PIZZA10":
-        return round(self.price * 0.9, 2)
-    return self.price
 
-#preis_mit_rabatt
 
 
 #
