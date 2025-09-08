@@ -26,9 +26,15 @@ class Pizza:
 
 #Methoden
 
-def price_with_discount(self):
-        if self.price <= 0:
+def price_with_code(self, code)
+    discount_code = code.strip().upper()
+    if discount_code == "PIZZA10":
+        return round(self.price * 0.9, 2)
+    return self.price
+
 #preis_mit_rabatt
+
+
 #
 
 
