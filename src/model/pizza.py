@@ -6,6 +6,10 @@
 #METHODEN
 #price_with_discount
 
+def __init__(self, name, toppings, price):
+    self.name = name
+    self.toppings = toppings
+    self.__price = price
 
 
 
