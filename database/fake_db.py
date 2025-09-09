@@ -4,6 +4,6 @@ from src.model.pizza import Pizza
 pizzas = [
 Pizza("Margherita", ["Käse", "Tomate"], 16.00),
 Pizza("Hawai", ["Schinken", "Ananas"], 18.00),
-Pizza("Diavola", ["scharfe_Salami", "Paprika"], 19.00),
+Pizza("Diavola", ["scharfe Salami", "Paprika"], 19.00),
 Pizza("Salami", ["Salami", "Käse"], 18.50)
 ]
