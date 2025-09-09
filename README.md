@@ -1,4 +1,4 @@
-# 🍕 Pizza Store (CLI)
+# 🍕 Pizza Store
 
 #Ein interaktives Python-Programm zur Verwaltung einer Pizzakarte.
 #Erstellt als Projekt für das Modul *Anwendungsentwicklung mit Python.
@@ -40,7 +40,7 @@ Python 3.10+ (keine externen Libraries notwendig)
 
 📹 Abgabe
 
-GitHub-Link: [DEIN_REPO_LINK]
+GitHub-Link: [https://github.com/Fenlin42/Pizza_Store]
 
-Video-Link: [SWITCHTUBE_LINK] (max. 10 Minuten)
+Video-Link: [SWITCHTUBE_LINK]
 """"""
