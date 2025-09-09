@@ -22,6 +22,29 @@ Bei falschem Code → Hinweis „Ungültiger Gutscheincode“
 
 Beenden
 
+🧪 Testeingaben
+
+Menüpunkt 1: Alle Pizzen anzeigen
+- Erwartung: Liste aller 4 Pizzen mit Namen, Belägen und Preisen.
+
+Menüpunkt 2: Nach Belägen suchen
+- Eingabe: `Schinken Ananas`  
+  → Erwartung: Pizza *Hawai*  
+- Eingabe: `Banane`  
+  → Erwartung: "Keine Treffer."
+
+Menüpunkt 3: Pizza wählen & Preis anzeigen
+- Eingabe: `Hawai`, Gutscheincode: `PIZZA10`  
+  → Erwartung: Rabatt, Preis = 16.20 CHF  
+- Eingabe: `Hawai`, Gutscheincode: `FALSCH`  
+  → Erwartung: Hinweis "Ungültiger Gutscheincode – normaler Preis wird berechnet."  
+- Eingabe: `Hawai`, Gutscheincode leer (Enter)  
+  → Erwartung: Normaler Preis 18.00 CHF
+
+Menüpunkt 0: Beenden
+- Erwartung: Programm gibt "Tschüss 👋" aus und stoppt.
+
+
 🗂️ Projektstruktur
 
 src/model/pizza.py → Pizza-Klasse (Attribute, Rabattlogik, str)
