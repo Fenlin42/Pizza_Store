@@ -65,5 +65,5 @@ Python 3.10+ (keine externen Libraries notwendig)
 
 GitHub-Link: [https://github.com/Fenlin42/Pizza_Store]
 
-Video-Link: [SWITCHTUBE_LINK]
+Video-Link:[https://tube.switch.ch/videos/YEk23hP1r4]
 """"""
